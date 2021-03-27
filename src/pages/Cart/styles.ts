@@ -13,7 +13,7 @@ export const Container = styled.div`
     align-items: center;
 
     button {
-      background: #7159c1;
+      background: #1935B3;
       color: #fff;
       border: 0;
       border-radius: 4px;
@@ -23,7 +23,7 @@ export const Container = styled.div`
       transition: background 0.2s;
 
       &:hover {
-        background: ${darken(0.06, '#7159c1')};
+        background: ${darken(0.06, '#1935B3')};
       }
     }
   }
@@ -78,19 +78,19 @@ export const ProductTable = styled.table`
     padding: 6px;
 
     svg {
-      color: #7159c1;
+      color: #2462A7;
       transition: color 0.2s;
     }
 
     &:hover {
       svg {
-        color: ${darken(0.06, '#7159c1')};
+        color: ${darken(0.06, '#14188C')};
       }
     }
 
     &:disabled {
       svg {
-        color: ${lighten(0.25, '#7159c1')};
+        color: ${lighten(0.25, '#14188C')};
         cursor: not-allowed;
       }
     }
